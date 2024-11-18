@@ -43,6 +43,15 @@ a:hover {
 	border-bottom: 2px solid #002348;
 }
 
+footer {
+	text-align: center;
+}
+
+header {
+	background-color: #64bcda;
+	border-bottom: 8px solid #000000;
+	margin-bottom: 3.2rem;
+}
 hr {
 	margin: 3.2rem 1.6rem;
 	color: #555555;
@@ -169,6 +178,8 @@ hr {
 		justify-content: space-between;
 		align-items: center;
 	}
+
+	.container {display: flex;}
 
 	.main-article {
 		width: 60%;
